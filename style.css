@@ -344,6 +344,9 @@ footer {
   font-size: 15px;
   padding-top: 50px;
 }
+.copyright p {
+  margin: 0;
+}
 .icon {
   color:black;
   opacity: 0.8;
@@ -371,36 +374,50 @@ footer {
 }
 /*レスポンシブ対応*/
 
-@media screen and (min-width:500px) {
-  /*コース一覧*/
-  .course-item{
-    width: 70%;
-    height: 50%;
+@media screen and (max-width:500px) {
+  .top-image  h1 {
+    font-size: 60px;
   }
-  
-}
-
-@media screen and (min-width:800px) {
-  /*コース一覧*/
-  .course-list{
-    display: flex;
-    justify-content: center;
-    flex-wrap:wrap;
-  }
-  .course-item{
-    width: 40%;
-    height: 50%;
-  }
-}
-
-@media screen and (min-width:1200px) {
-  /*コース一覧*/
-  .course-list{
-    display: flex;
+  .service_item {
+    display: inline;
     justify-content: center;
   }
-  .course-item{
-    width: 20%;
-    height: 50%;
+  .portfolio_section{
+    height: 100%;
+  }
+  .portfolio {
+    display: inline;
+    justify-content: center;
+  }
+
+  .follow-me {
+    display: flex;
   }
 }
+
+@media screen and (max-width:890px) {
+  .service_item {
+    display: inline;
+    justify-content: center;
+  }
+  .portfolio_section{
+    height: 100%;
+  }
+  .portfolio {
+    display: inline;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width:1050px) {
+   .portfolio_section{
+    height: 100%;
+  }
+  .portfolio {
+    display: inline-block;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
