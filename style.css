@@ -373,10 +373,19 @@ footer {
   transition-duration: 0.5s;
 }
 /*レスポンシブ対応*/
-
+@media screen and (max-width:320px) {
+  .portfolio img{
+    width: 80%;
+    height: auto;
+  }
+  .follow-me  {
+    padding-left: 20px;
+    justify-content: space-between;
+  }
+}
 @media screen and (max-width:500px) {
-  .top-image  h1 {
-    font-size: 60px;
+  .bg-mask   h1 {
+    font-size: 55px;
   }
   .service_item {
     display: inline;
@@ -386,13 +395,21 @@ footer {
     height: 100%;
   }
   .portfolio {
+    width: 100%;
     display: inline;
     justify-content: center;
   }
-
+  .youtube img {
+    width: 80%;
+  }
   .follow-me {
     display: flex;
+    justify-content: space-between;
   }
+  .follow-me li {
+    margin-right: 30px;
+  }
+  
 }
 
 @media screen and (max-width:890px) {
