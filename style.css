@@ -228,6 +228,10 @@ html, body{
   padding: 20px;
   border-radius: 15px;
 }
+.introduction-text-p{
+ display: inline-block;
+ text-align: left;
+}
 
 
 /*スキル紹介*/
@@ -283,7 +287,7 @@ html, body{
 .portfolio_section{
   font-size: 24px;
   padding-bottom: 50px;
-  height: 700px;
+  height: 1000px;
   width: 100%;
   background-image: url(img/work-image.jpg);
   background-repeat: no-repeat;
@@ -313,7 +317,10 @@ html, body{
   padding-top: 15px;
   font-size: 16px;
 }
-
+.lstep{
+  margin-top: 50px;
+ 
+}
 
 /*フッター・お問い合わせ*/
 footer {
@@ -400,7 +407,10 @@ footer {
     justify-content: center;
   }
   .youtube img {
-    width: 80%;
+    width: 100%;
+  }
+  .lstep img{
+    width: 100%;
   }
   .follow-me {
     display: flex;
