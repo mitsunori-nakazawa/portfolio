@@ -287,7 +287,7 @@ html, body{
 .portfolio_section{
   font-size: 24px;
   padding-bottom: 50px;
-  height: 1000px;
+  height: 100%;
   width: 100%;
   background-image: url(img/work-image.jpg);
   background-repeat: no-repeat;
@@ -379,6 +379,11 @@ footer {
   transform: translateY(-5px);
   transition-duration: 0.5s;
 }
+
+/* .test{
+  width: 80%;
+} */
+
 /*レスポンシブ対応*/
 @media screen and (max-width:320px) {
   .portfolio img{
@@ -434,6 +439,11 @@ footer {
     display: inline;
     justify-content: center;
   }
+
+  .sp-br{
+      display: none;
+    }
+  
 }
 
 
